@@ -1,2 +1,37 @@
 # debian
 Checklist for setting up Debian on a personal computer
+
+- Check the internet works on Ethernet
+- Check the internet works on WiFi
+- Make sure the login screen will appear after closing the lid
+  - Settings -> power manager -> Laptop lid -> change both options to Suspend
+  - Check the login screen appears after closing the laptop lid
+- Get tap working on trackpad: https://wiki.debian.org/SynapticsTouchpad#Enable_tapping_on_touchpad
+- Set keyboard to UK layout: Settings -> Keyboard -> Layout -> uncheck ‘use system defaults’ -> keyboard layouts -> Add
+- Tweak panels
+  - Settings -> Panel
+  - Remove panel 2 (the bottom one)
+  - Tweak panel 1
+    - Automatically hide the panel -> Intelligently
+    - Row size -> 20 pixels
+  - Add new items:
+    - Battery monitor
+    - PulseAudio Plugin
+- Set up firefox
+  - Preferences -> When firefox starts -> show a blank page
+  - Search -> Default search engine -> DuckDuckGo
+- Clear desktop: Settings -> desktop -> Icons -> Default icons -> uncheck all
+- Tweak appearance
+  - Settings -> Appearance -> Xfce-dusk
+  - Desktop settings:
+    - Style -> None
+    - Colour -> choose a colour
+  - Change background colour for the greeter: https://wiki.archlinux.org/index.php/LightDM#Changing_background_images/colors
+- Install chrome: https://www.lifewire.com/install-deb-packages-2205641
+  - Set Default search engine -> DuckDuckGo
+- Terminal opacity: open terminal -> Edit -> Preferences -> Appearance -> Background -> Transparent background
+- Set up keyboard shortcuts/mappings
+  - Settings -> keyboard -> application shortcuts -> add:
+    - Xfce4-terminal
+    - Firefox
+  - Settings -> window manager -> find ‘show desktop’ and edit
